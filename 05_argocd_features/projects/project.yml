@@ -9,7 +9,7 @@ spec:
     - https://github.com/<your-username>/argocd-demos.git
   destinations:                # Which clusters/namespaces apps in this Project can target
     - namespace: frontend
-      server: <added_argocd_cluster_server_url>  # Target cluster server url
+      server: <added_argocd_cluster_server_url>  # Target cluster server url  # command - argocd cluster list
   clusterResourceWhitelist:    # Which cluster-wide resources are allowed (e.g., CRDs)
     - group: "*"               # '*' means allow all groups
       kind: "*"                # '*' means allow all kinds
