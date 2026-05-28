@@ -18,7 +18,7 @@ spec:
         targetRevision: main
         path: applicationsets/chai-app    # same app deployed to all clusters
       destination:
-        # destination.server will be filled with '{{server}}' for each cluster entry generated
+        # destination.server will be filled with '{{server}}' for each cluster entry generated #watch video 2:26:00
         server: '{{server}}'
         namespace: default
       syncPolicy:
